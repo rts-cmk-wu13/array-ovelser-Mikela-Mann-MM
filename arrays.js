@@ -66,4 +66,32 @@ console.log(dogsArray.includes('Trixie'));
 
 console.log(dogsArray.includes('Baxter'));
 
+// --- opgave 4a ---
+
+//The find() method of Array instances returns the 
+//first element in the provided array that satisfies 
+//the provided testing function. If no values satisfy 
+//the testing function, undefined is returned.
+
+function findBagheera(cat) {
+    return cat.name === "Bagheera";
+}
+
+let foundCat = catsArray.find(findBagheera);
+
+console.log("Opgave 4a", foundCat);
+
+// --- opgave 4b ---
+
+function findSalem(cat) {
+    return cat.name === "Salem";
+}
+
+let foundCat2 = catsArray.find(findSalem);
+
+console.log("Opgave 4b", foundCat);
+
+
+
+
 }); // ends DOMContentLoaded
