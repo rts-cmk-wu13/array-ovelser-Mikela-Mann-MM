@@ -58,4 +58,12 @@ console.log("Opgave 2", catsArray);
 
 // --- opgave 3 ---
 
+//The includes() method of Array instances determines 
+//whether an array includes a certain value among its entries, 
+//returning true or false as appropriate.
+
+console.log(dogsArray.includes('Trixie'));
+
+console.log(dogsArray.includes('Baxter'));
+
 }); // ends DOMContentLoaded
