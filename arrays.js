@@ -142,4 +142,14 @@ let updatedDogsArray = dogsArray.filter(removePolly);
 console.log("Opgave 8", updatedDogsArray);
 
 
+// --- Ekstra opgave ---
+
+function sumNumbers(accumulator, num) {
+    return accumulator + num;
+}
+
+let totalSum = numbersArray.reduce(sumNumbers, 0);
+
+console.log("Ekstra-opgave", totalSum);
+
 }); // ends DOMContentLoaded
