@@ -50,9 +50,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // --- opgave 2 ---
 
+//The push() method of Array instances adds the specified elements 
+//to the end of an array and returns the new length of the array.
+
 catsArray.push('Sniffles');
 console.log("Opgave 2", catsArray);
 
-
+// --- opgave 3 ---
 
 }); // ends DOMContentLoaded
