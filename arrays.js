@@ -119,4 +119,17 @@ let dogString = dogsArray.reduce(concatenateDogs, "");
 
 console.log("Opgave 6", dogString)
 
+// --- opgave 7a & b ---
+
+//The indexOf() method of Array instances returns 
+//the first index at which a given element can be 
+//found in the array, or -1 if it is not present.
+
+let mangoIndex = fruitsArray.indexOf("Mango");
+console.log("Opgave 7a", mangoIndex);
+
+let blaabaerIndex = fruitsArray.indexOf("Blåbær");
+console.log("Opgave 7b", blaabaerIndex);
+
+
 }); // ends DOMContentLoaded
