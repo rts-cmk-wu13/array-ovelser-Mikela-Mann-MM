@@ -108,16 +108,7 @@ console.log("Opgave 5", newNumbers5);
 
 // --- opgave 6 ---
 
-//reduce() – Reducerer et array til én enkelt værdi
-// Bruges til at kombinere alle elementer i et array til én samlet værdi.
-
-function concatenateDogs(accumulator, dog) {
-    return accumulator + dog;
-}
-
-let dogString = dogsArray.reduce(concatenateDogs, "");
-
-console.log("Opgave 6", dogString)
+console.log("Opgave 6", dogsArray.join(""));
 
 // --- opgave 7a & b ---
 
