@@ -91,7 +91,19 @@ let foundCat2 = catsArray.find(findSalem);
 
 console.log("Opgave 4b", foundCat);
 
+// --- opgave 5 ---
 
+//The map() method of Array instances creates
+// a new array populated with the results of 
+//calling a provided function on every element 
+//in the calling array.
 
+function multiplyByThree(num) {
+    return num * 3;
+}
+
+let newNumbers5 = numbersArray.map(multiplyByThree);
+
+console.log("Opgave 5", newNumbers5);
 
 }); // ends DOMContentLoaded
