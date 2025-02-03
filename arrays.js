@@ -74,7 +74,7 @@ console.log(dogsArray.includes('Baxter'));
 //the testing function, undefined is returned.
 
 function findBagheera(cat) {
-    return cat.name === "Bagheera";
+    return cat === "Bagheera";
 }
 
 let foundCat = catsArray.find(findBagheera);
@@ -84,12 +84,12 @@ console.log("Opgave 4a", foundCat);
 // --- opgave 4b ---
 
 function findSalem(cat) {
-    return cat.name === "Salem";
+    return cat === "Salem";
 }
 
 let foundCat2 = catsArray.find(findSalem);
 
-console.log("Opgave 4b", foundCat);
+console.log("Opgave 4b", foundCat2);
 
 // --- opgave 5 ---
 
