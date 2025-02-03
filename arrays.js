@@ -131,5 +131,15 @@ console.log("Opgave 7a", mangoIndex);
 let blaabaerIndex = fruitsArray.indexOf("Blåbær");
 console.log("Opgave 7b", blaabaerIndex);
 
+// --- opgave 8 ---
+
+function removePolly(dog) {
+    return dog !== "Polly";
+}
+
+let updatedDogsArray = dogsArray.filter(removePolly);
+
+console.log("Opgave 8", updatedDogsArray);
+
 
 }); // ends DOMContentLoaded
